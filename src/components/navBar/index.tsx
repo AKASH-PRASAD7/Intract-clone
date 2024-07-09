@@ -21,11 +21,12 @@ const NavBar = () => {
         <ul className="flex items-center gap-8 text-gray-400 flex-1 peer-focus-within:hidden">
           <li className="cursor-pointer">Compass</li>
           <li className="cursor-pointer">Explore</li>
-          <li className="inline-flex items-center rounded-sm border-b-4 border-white px-1 pt-1 text-sm font-medium text-white">
+          <li className="cursor-pointer relative inline-flex items-center px-1 pt-1 text-sm font-medium text-white">
             Academy
-            <span className="rounded-xl px-2 ml-2 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700">
+            <span className="rounded-xl px-2 ml-2 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700">
               New
             </span>
+            <span className="absolute -bottom-[18px] left-0 right-0 h-[4px] rounded-lg bg-white"></span>
           </li>
           <li className="cursor-pointer">NFTs</li>
           <li className="cursor-pointer">For Projects</li>
